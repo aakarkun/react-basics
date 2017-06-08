@@ -26,8 +26,10 @@ export class Home extends React.Component {
 
 Home.propTypes = {
   name: PropTypes.string,
+  age: PropTypes.number,
   email: PropTypes.string,
   college: PropTypes.object,
   skills: PropTypes.object,
-  children: PropTypes.isRequired
+  children: PropTypes.node // from github suggestions node should be use for this types of props and no error
+  // children: PropTypes.isRequired // from tutorial but display error
 }
