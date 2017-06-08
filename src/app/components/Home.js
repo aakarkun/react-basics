@@ -27,8 +27,6 @@ export class Home extends React.Component {
 
 Home.propTypes = {
   name: PropTypes.string,
-  email: PropTypes.string,
-  college: PropTypes.object,
-  skills: PropTypes.object,
-  children: PropTypes.isRequired
+  age: PropTypes.number,
+  email: PropTypes.string
 }
